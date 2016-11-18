@@ -19,10 +19,7 @@ $(document).on('ready', function() {
 						name: $('input[name="name"]').val().replace(' ', ''),
 						color: $('.colorSelected').attr('color'),
 						size: $('select[name="size"]').val(),
-						//user: $('select[name="user"]').val(),
-						user: $('select[name="user_id"]').val(),
-						companyid: $('select[name="companyid"]').val(),
-						exchangepoint: $('select[name="exchangepoint"]').val(),
+						user: $('select[name="user"]').val(),
 						v: 1
 					};
 		if(obj.user && obj.name && obj.color){
